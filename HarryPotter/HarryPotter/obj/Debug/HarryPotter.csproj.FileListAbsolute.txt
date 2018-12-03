@@ -1,0 +1,9 @@
+C:\Users\ТажибекА\source\repos\HarryPotter\HarryPotter\bin\Debug\HarryPotter.exe.config
+C:\Users\ТажибекА\source\repos\HarryPotter\HarryPotter\bin\Debug\HarryPotter.exe
+C:\Users\ТажибекА\source\repos\HarryPotter\HarryPotter\bin\Debug\HarryPotter.pdb
+C:\Users\ТажибекА\source\repos\HarryPotter\HarryPotter\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ТажибекА\source\repos\HarryPotter\HarryPotter\obj\Debug\HarryPotter.csprojAssemblyReference.cache
+C:\Users\ТажибекА\source\repos\HarryPotter\HarryPotter\obj\Debug\HarryPotter.csproj.CoreCompileInputs.cache
+C:\Users\ТажибекА\source\repos\HarryPotter\HarryPotter\obj\Debug\HarryPotter.csproj.CopyComplete
+C:\Users\ТажибекА\source\repos\HarryPotter\HarryPotter\obj\Debug\HarryPotter.exe
+C:\Users\ТажибекА\source\repos\HarryPotter\HarryPotter\obj\Debug\HarryPotter.pdb
