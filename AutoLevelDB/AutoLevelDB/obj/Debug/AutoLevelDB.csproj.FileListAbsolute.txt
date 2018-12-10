@@ -1,0 +1,7 @@
+C:\Users\ТажибекА\source\repos\AutoLevelDB\AutoLevelDB\bin\Debug\AutoLevelDB.exe.config
+C:\Users\ТажибекА\source\repos\AutoLevelDB\AutoLevelDB\bin\Debug\AutoLevelDB.exe
+C:\Users\ТажибекА\source\repos\AutoLevelDB\AutoLevelDB\bin\Debug\AutoLevelDB.pdb
+C:\Users\ТажибекА\source\repos\AutoLevelDB\AutoLevelDB\obj\Debug\AutoLevelDB.csprojAssemblyReference.cache
+C:\Users\ТажибекА\source\repos\AutoLevelDB\AutoLevelDB\obj\Debug\AutoLevelDB.csproj.CoreCompileInputs.cache
+C:\Users\ТажибекА\source\repos\AutoLevelDB\AutoLevelDB\obj\Debug\AutoLevelDB.exe
+C:\Users\ТажибекА\source\repos\AutoLevelDB\AutoLevelDB\obj\Debug\AutoLevelDB.pdb
