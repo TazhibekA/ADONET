@@ -5,3 +5,8 @@ C:\Users\ТажибекА\source\repos\AutoLevelDB\AutoLevelDB\obj\Debug\AutoLev
 C:\Users\ТажибекА\source\repos\AutoLevelDB\AutoLevelDB\obj\Debug\AutoLevelDB.csproj.CoreCompileInputs.cache
 C:\Users\ТажибекА\source\repos\AutoLevelDB\AutoLevelDB\obj\Debug\AutoLevelDB.exe
 C:\Users\ТажибекА\source\repos\AutoLevelDB\AutoLevelDB\obj\Debug\AutoLevelDB.pdb
+C:\Users\ТажибекА\source\repos\AutoLevelDB\AutoLevelDB\bin\Debug\EntityFramework.dll
+C:\Users\ТажибекА\source\repos\AutoLevelDB\AutoLevelDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ТажибекА\source\repos\AutoLevelDB\AutoLevelDB\bin\Debug\EntityFramework.xml
+C:\Users\ТажибекА\source\repos\AutoLevelDB\AutoLevelDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ТажибекА\source\repos\AutoLevelDB\AutoLevelDB\obj\Debug\AutoLevelDB.csproj.CopyComplete
