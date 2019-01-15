@@ -1,0 +1,16 @@
+C:\Users\ТажибекА\source\repos\TwoMigrations\TwoMigrations\bin\Debug\TwoMigrations.exe.config
+C:\Users\ТажибекА\source\repos\TwoMigrations\TwoMigrations\bin\Debug\TwoMigrations.exe
+C:\Users\ТажибекА\source\repos\TwoMigrations\TwoMigrations\bin\Debug\TwoMigrations.pdb
+C:\Users\ТажибекА\source\repos\TwoMigrations\TwoMigrations\bin\Debug\EntityFramework.dll
+C:\Users\ТажибекА\source\repos\TwoMigrations\TwoMigrations\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ТажибекА\source\repos\TwoMigrations\TwoMigrations\bin\Debug\EntityFramework.xml
+C:\Users\ТажибекА\source\repos\TwoMigrations\TwoMigrations\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ТажибекА\source\repos\TwoMigrations\TwoMigrations\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\ТажибекА\source\repos\TwoMigrations\TwoMigrations\obj\Debug\TwoMigrations.csprojAssemblyReference.cache
+C:\Users\ТажибекА\source\repos\TwoMigrations\TwoMigrations\obj\Debug\TwoMigrations.csproj.CoreCompileInputs.cache
+C:\Users\ТажибекА\source\repos\TwoMigrations\TwoMigrations\obj\Debug\TwoMigrations.csproj.CopyComplete
+C:\Users\ТажибекА\source\repos\TwoMigrations\TwoMigrations\obj\Debug\TwoMigrations.exe
+C:\Users\ТажибекА\source\repos\TwoMigrations\TwoMigrations\obj\Debug\TwoMigrations.pdb
+C:\Users\ТажибекА\source\repos\TwoMigrations\TwoMigrations\obj\Debug\TwoMigrations.Migrations.init.resources
+C:\Users\ТажибекА\source\repos\TwoMigrations\TwoMigrations\obj\Debug\TwoMigrations.csproj.GenerateResource.cache
+C:\Users\ТажибекА\source\repos\TwoMigrations\TwoMigrations\obj\Debug\TwoMigrations.Migrations.addedPassword.resources
