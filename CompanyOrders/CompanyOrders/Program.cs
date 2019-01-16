@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -72,7 +72,9 @@ namespace CompanyOrders
                                                 int count = 0;
                                                 foreach (var order in orders) {
                                                     if (order.DepartmentId == chooseDInt) {
+                                                        /**/
                                                         Console.WriteLine("{0}. {1}  {2}", order.Id, order.Content, order.SendDateTime);
+                                                        /**/
                                                         count++;
                                                     }
                                                 }
@@ -88,21 +90,30 @@ namespace CompanyOrders
                                                 int chooseOInt;
                                                 int countT = 0;
                                                 bool successO = Int32.TryParse(chooseO, out chooseOInt);
-                                                if (successO)
+                                                try
                                                 {
-                                                    CompletedTask completedTask = new CompletedTask
+                                                    if (successO)
                                                     {
-                                                        TaskId = chooseOInt,
-                                                        CompletedDateTime = DateTime.Now
-                                                    };
-                                                    company.CompletedTasks.Add(completedTask);
-                                                    company.SaveChanges();
-                                                    countT++;
-                                                    inCorrect = false;
+
+                                                        Company secondCompany = new Company();
+                                                        CompletedTask completedTask = new CompletedTask
+                                                        {
+                                                            TaskId = chooseOInt,
+                                                            CompletedDateTime = DateTime.Now
+                                                        };
+                                                        secondCompany.CompletedTasks.Add(completedTask);
+                                                         var item = company.Tasks.Where(Task => Task.Id == chooseOInt).FirstOrDefault();
+                                                        company.Tasks.Remove(item);
+                                                        company.SaveChanges();
+                                                        countT++;
+
+
+                                                    }
 
                                                 }
-                                                
-
+                                                catch (Exception exc) {
+                                                    Console.WriteLine(exc.Message);
+                                                }
                                            
                                                 break;
                                             case 2:
@@ -141,15 +152,16 @@ namespace CompanyOrders
                                                 break;
                                             case 3:
                                                 var allOrders = company.Tasks.ToList();
+                                                int countOfOrders = 0;
                                                  foreach (var order in allOrders)
                                                 {
                                                     if (order.DepartmentId == chooseDInt)
                                                     {
                                                         Console.WriteLine("{0}. {1}  {2}", order.Id, order.Content, order.SendDateTime);
-
+                                                        countOfOrders++;
                                                     }
                                                 }
-                                                if (allOrders.Count == 0) {
+                                                if (countOfOrders == 0) {
                                                     Console.WriteLine("No orders!");
                                                 }
                                                 Console.Read();
@@ -160,17 +172,20 @@ namespace CompanyOrders
                                                 int countCompTask = 0;
                                                 foreach (var task in completedTasks) {
                                                     foreach (var taskItem in orderss) {
-                                                        if (task.TaskId == taskItem.Id) {
+                                                        if (task.TaskId == taskItem.Id && taskItem.DepartmentId==chooseDInt) {
                                                             Console.WriteLine("{0}. {1} {2}",task.Id,taskItem.Content,task.CompletedDateTime );
                                                             countCompTask++;
+
                                                         }
                                                     }
-
+                                              
                                                 }
+                                              
                                                 if (countCompTask == 0) {
                                                     Console.WriteLine("No completed tasks!");
                                                     System.Threading.Thread.Sleep(1000);
                                                 }
+                                                Console.ReadLine();
                                                 break;
                                             case 5:
                                                 inCorrect = false;
