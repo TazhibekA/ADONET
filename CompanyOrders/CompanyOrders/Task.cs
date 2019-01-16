@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,6 +14,7 @@ namespace CompanyOrders
         public int Id { get; set; }
         public string Content { get; set; }
         public int DepartmentId { get; set; }
+        public bool Completed { get; set; }
         public virtual Department Department { get; set; }
         public DateTime SendDateTime { get; set; }
     }
